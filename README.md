@@ -16,7 +16,7 @@ Kho mã nguồn này lưu trữ toàn bộ các sản phẩm thực hành, báo 
 | :---: | :--- | :--- | :--- | :---: |
 | **Lab 1** | **Chuẩn bị môi trường làm việc** | Mọi vị trí Web3 | [`lab01.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab01.md) (Antigravity, MetaMask, Sepolia Faucet, Commit đầu tiên) | ✅ Hoàn thành |
 | **Lab 2** | **Ví và giao dịch đầu tiên** | Chuyên viên Tuân thủ & Kế toán số | [`lab02.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab02.md) (Bảng đối chiếu Tx thành công vs thất bại, EIP-55 Checksum, Insufficient gas) | ✅ Hoàn thành |
-| **Lab 3** | **Đọc giao dịch & Hợp đồng trên Etherscan** | Chuyên viên AML/KYC & Kế toán số | [`lab03.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab03.md) (Mổ xẻ 10 trường on-chain, đối soát USDT/USDC, Proxy Contract) | ✅ Hoàn thành |
+| **Lab 3** | **Đọc giao dịch & Hợp đồng trên Etherscan** | Chuyên viên AML/KYC & Kế toán số | [`lab03.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab03.md) / [`forensics.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/forensics.md) (Mổ xẻ 10 trường on-chain, đối soát USDT/USDC, Proxy Contract) | ✅ Hoàn thành |
 | **Lab 4** | **Nhận diện hợp đồng có rủi ro** | Chuyên viên Thẩm định rủi ro (Risk Analyst) | [`lab04.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab04.md) + [`ClubTokensHardened.sol`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/contracts/lab04/ClubTokensHardened.sol) (Phát hiện bẫy Honeypot, Unlimited Mint) | ✅ Hoàn thành |
 | **Lab 5** | **Viết đặc tả cho công cụ phân tích dòng tiền** | Chuyên viên Phân tích nghiệp vụ (BA) | [`lab05.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab05.md) + [`SPEC.MD`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/SPEC.MD) (Quy tắc R1–R10, biên bản kiểm tra chéo) | ✅ Hoàn thành |
 | **Lab 6** | **Sinh mã bằng AI và kiểm tra kết quả** | Chuyên viên Dữ liệu On-chain & BA | [`lab06.md`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/lab06.md) + [`wallet_analyzer.py`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/wallet_analyzer.py) + [`test/test_wallet_analyzer.py`](file:///Users/phuongnguyennguyen/Desktop/solidity-project/lab1-7/test/test_wallet_analyzer.py) | ✅ Hoàn thành |
@@ -30,11 +30,13 @@ Kho mã nguồn này lưu trữ toàn bộ các sản phẩm thực hành, báo 
 lab1-7/
 ├── README.md                           # Tổng quan hồ sơ thực hành cá nhân
 ├── AGENTS.md                           # Bản quy ước chỉ dẫn dành riêng cho trợ lý AI
-├── AJ_JOURNAL.md                       # Nhật ký làm việc với AI và các lỗi bắt được
+├── AI_JOURNAL.md                       # Nhật ký làm việc với AI và các lỗi bắt được (AI/AJ)
+├── AJ_JOURNAL.md                       # Bản sao đồng bộ của AI_JOURNAL.md
 ├── SPEC.MD                             # Bản đặc tả yêu cầu nghiệp vụ chuẩn BA (Lab 5 & 6)
 ├── lab01.md                            # Báo cáo Lab 1: Môi trường, ví và Git
 ├── lab02.md                            # Báo cáo Lab 2: Giao dịch thành công & thất bại
 ├── lab03.md                            # Báo cáo Lab 3: Đọc dữ liệu sổ cái Etherscan
+├── forensics.md                        # Báo cáo phân tích chuyên sâu on-chain (Lab 3)
 ├── lab04.md                            # Báo cáo Lab 4: Thẩm định mã độc và rủi ro hợp đồng
 ├── lab05.md                            # Báo cáo Lab 5: Đặc tả hệ thống phân tích dòng tiền
 ├── lab06.md                            # Báo cáo Lab 6: Sinh mã Python & kiểm thử gian lận
